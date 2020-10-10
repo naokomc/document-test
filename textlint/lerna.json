@@ -1,0 +1,17 @@
+{
+  "version": "independent",
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "packages": [
+    "packages/*",
+    "examples/*",
+    "packages/@textlint/*",
+    "test/integration-test",
+    "website"
+  ],
+  "includeMergedTags": true,
+  "ignoreChanges": [
+    "**/test/**",
+    "**/*.md"
+  ]
+}

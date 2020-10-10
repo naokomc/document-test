@@ -1,0 +1,8 @@
+{
+  "rules": [
+    "@textlint/example"
+  ],
+  "rulesConfig": {
+    "@textlint/example": true
+  }
+}

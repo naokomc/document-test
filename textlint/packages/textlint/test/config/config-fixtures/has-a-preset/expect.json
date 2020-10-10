@@ -1,0 +1,10 @@
+{
+  "rules": [],
+  "presets": [
+    "foo"
+  ],
+  "rulesConfig": {
+    "foo/a": true,
+    "foo/b": true
+  }
+}

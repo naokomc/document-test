@@ -1,0 +1,23 @@
+{
+  "name": "textlint-example-rulesdir",
+  "version": "2.2.6",
+  "private": true,
+  "description": "",
+  "license": "MIT",
+  "author": "azu",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run textlint",
+    "test:ci": "npm test",
+    "textlint": "textlint --rulesdir ./rules README.md"
+  },
+  "devDependencies": {
+    "textlint": "^11.7.6"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "module/",
+    "src/"
+  ]
+}

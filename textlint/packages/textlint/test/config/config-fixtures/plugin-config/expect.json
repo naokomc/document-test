@@ -1,0 +1,12 @@
+{
+  "rules": [],
+  "rulesConfig": {},
+  "plugins": [
+    "pl-example"
+  ],
+  "pluginsConfig": {
+    "pl-example": {
+      "flag": true
+    }
+  }
+}

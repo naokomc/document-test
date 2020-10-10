@@ -1,0 +1,24 @@
+{
+  "docs": {
+    "User Manual": [
+      "getting-started",
+      "configuring",
+      "integrations"
+    ],
+    "Developer Guide": [
+      "rule",
+      "filter-rule",
+      "rule-fixable",
+      "rule-preset",
+      "rule-advanced",
+      "rule-tips-after-all",
+      "plugin",
+      "formatter",
+      "use-as-modules",
+      "txtnode"
+    ],
+    "Contributing": [
+      "contributing"
+    ]
+  }
+}
