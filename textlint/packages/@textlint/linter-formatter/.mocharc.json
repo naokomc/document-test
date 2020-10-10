@@ -1,7 +1,0 @@
-{
-  "require": [
-    "ts-node-test-register"
-  ],
-  "color": false,
-  "timeout": "10000"
-}

@@ -1,0 +1,18 @@
+{
+  "filters": {},
+  "rules": {
+    "ja-hiragana-keishikimeishi": true,
+    "ja-no-abusage": true,
+    "ja-no-redundant-expression": true,
+    "web-plus-db": true,
+    "no-todo": true,
+    "max-kanji-continuous-len": {
+            // 連続できる漢字の文字数
+            // Allow max continuous length of kanji
+            // If {current} > max(5), report Error.
+            max: 5,
+            // "倍精度浮動小数点数"という単語は例外として無視します
+            allow: ["倍精度浮動小数点数"]
+        }
+}
+}
